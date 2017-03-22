@@ -1,5 +1,8 @@
 package net.loshodges.expressions
 
+import net.loshodges.expressions.SearchResult.Companion.searchNew
+import net.loshodges.expressions.SearchResult.Companion.searchNewExceptional
+import net.loshodges.expressions.SearchResult.Companion.searchOld
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 

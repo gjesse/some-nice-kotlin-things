@@ -3,9 +3,9 @@ package net.loshodges.expressions;
 
 import org.junit.Test;
 
-import static net.loshodges.expressions.SearchResultKt.searchNew;
-import static net.loshodges.expressions.SearchResultKt.searchNewExceptional;
-import static net.loshodges.expressions.SearchResultKt.searchOld;
+import static net.loshodges.expressions.SearchResult.searchNew;
+import static net.loshodges.expressions.SearchResult.searchNewExceptional;
+import static net.loshodges.expressions.SearchResult.searchOld;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class JavaExpressions {
@@ -58,7 +58,4 @@ public class JavaExpressions {
         }
         assertThat(res.getType()).isEqualTo("new");
     }
-
-
-
 }
